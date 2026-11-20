@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cog and Virtual Environments
+.cog/
+.venv/
+venv/
+ENV/
+
+# Large Model Assets in Task 1 (downloaded on demand via task-1/download_models.sh)
+task-1/models/*
+!task-1/models/.gitkeep
+
+# Screen recording video deliverables (large binary files)
+*.avi
+*.mp4
+*.mkv
+*.mov
+
+# Generated runtime outputs
+task-1/sample_data/annotated_*
+task-1/sample_data/tts_output.wav
+
+# OS metadata
+.DS_Store
+Thumbs.db

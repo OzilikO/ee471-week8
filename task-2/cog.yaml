@@ -1,0 +1,11 @@
+build:
+  gpu: false
+  python_version: "3.11"
+  system_packages:
+    - "libgles2"
+    - "libgl1"
+  python_packages:
+    - "mediapipe"
+    - "opencv-python-headless"
+    - "numpy"
+predict: "classify_arm.py:Predictor"
